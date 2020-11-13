@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btntnt {
+    color: hsl(180, 100%, 28%);
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.heading1 {
+    color: #ff00f5;
+    margin-left: 30px;
+    line-height: 3;
+}
+.Apppp .firebaseui-idp-list {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 30%;
+    margin-bottom: 40px;
+    box-shadow: 30px 30px 30px 30px rgba(219, 219, 219, 0.226);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Apppp .firebaseui-idp-button {
+    direction: ltr;
+    font-weight: 500;
+    height: auto;
+    line-height: normal;
+    max-width: 300px;
+    min-height: 70px;
+    padding: 8px 16px;
+    text-align: left;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gdgjkdsn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 30px 30px 30px #0a1218;
+    background-color: #0a1218;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Apppp .firebaseui-idp-text {
+    color: #fff;
+    display: table-cell;
+    font-size: 16px;
+    padding-left: 16px;
+    text-transform: none;
+    vertical-align: middle;
 }
